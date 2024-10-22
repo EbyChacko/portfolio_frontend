@@ -1,5 +1,4 @@
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png"
 import python_logo from "../assets/img/logos/python_logo.webp"
 import django_logo from "../assets/img/logos/django_logo.webp"
 import javaSript_logo from "../assets/img/logos/JavaScript_logo.webp"
@@ -10,6 +9,8 @@ import css_logo from "../assets/img/logos/css_logo.webp"
 import react_logo from "../assets/img/logos/react_logo.webp"
 import photoshop_logo from "../assets/img/logos/photoshop_logo.webp"
 import flask_logo from "../assets/img/logos/flask_logo.webp"
+
+import color_sharp from "../assets/img/color-sharp.png"
 
 
 
@@ -44,7 +45,7 @@ export const Tech = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="" />
+        <img className="background-image-left" src={color_sharp} alt="" />
     </section>
   )
 }
