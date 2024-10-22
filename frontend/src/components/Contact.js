@@ -94,7 +94,7 @@ export const Contact = () => {
     }
 
     setButtonText("Sending...");
-    let response = await fetch("https://eby-portfolio-backend-8ae1b564b297.herokuapp.com//api/contact/", {
+    let response = await fetch("https://eby-portfolio-backend-8ae1b564b297.herokuapp.com/api/contact/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
