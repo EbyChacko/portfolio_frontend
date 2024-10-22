@@ -1,5 +1,4 @@
 import 'react-multi-carousel/lib/styles.css';
-import {Container, Row , Col} from "react-bootstrap"
 import colorSharp from "../assets/img/color-sharp.png"
 import python_logo from "../assets/img/logos/python_logo.webp"
 import django_logo from "../assets/img/logos/django_logo.webp"
@@ -45,7 +44,7 @@ export const Tech = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }

@@ -3,7 +3,6 @@ import my_photo from "../assets/img/My_photo.webp"
 import { ArrowDownCircle } from "react-bootstrap-icons"
 import {useState, useEffect} from "react";
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 import cvFile from "../assets/eby_chacko_cv.pdf";
 
 export const Banner = () => {
@@ -11,7 +10,6 @@ export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(100 - Math.random() * 100);
-    const [index, setIndex] = useState(1);
     const toRotate = [ "Full Stack Developer", "Software Engineer", "Web Designer", "Graphic Designer" ];
     const period = 2000;
 
@@ -58,7 +56,7 @@ export const Banner = () => {
                     <Col xs={12} lg={7}>
                         <h2></h2>
                         <h2>Hey, I'M </h2>
-                        <h1><span style={{ color: "#b675e8" }}> EBY CHACKO</span></h1>
+                        <h1 style={{ color: "#b675e8" }}> EBY CHACKO</h1>
                         <h2 className="wrap">{text} <span className="cursor">|</span></h2>
                         <div className="banner_para">
                             <p>I’ve been a designer since I was 17, starting out with Graphic Desining & video editing. Design has always been a huge part of my life, and my passion for tech naturally pushed me to explore more. That’s why I pursued a degree in Computer Application.</p>

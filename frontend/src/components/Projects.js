@@ -1,4 +1,4 @@
-import { Container, Row, Col, Tab } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import fly_img from '../assets/img/projects/fly_img.webp';
 import truecare_img from '../assets/img/projects/Truecare_img.webp';
@@ -76,7 +76,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2}></img>
+            <img className="background-image-right" src={colorSharp2} alt=""></img>
         </section>
         
     )

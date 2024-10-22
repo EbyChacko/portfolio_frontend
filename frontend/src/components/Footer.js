@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
 
 
 export const Footer = () => {
