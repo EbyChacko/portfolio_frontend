@@ -13,7 +13,7 @@ export const Education = () => {
             <div>
               <h2>EDUCATION</h2>
 
-              <Row>
+              <Row className="g-3">
                   <Col size={12} sm={6} className="edu_box">
                     <h4>Deploma in Full stack development</h4>
                     <span>May 2023 - May 2024</span>

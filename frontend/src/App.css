@@ -494,18 +494,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .education {
   padding: 80px 0;
   position: relative;
+  background-color: #161427;
 }
 
 .edu_box {
-  margin:10px;
   border-radius: 20px;
-  background-color: #120c45;
+  background-color: #1b1930;
   transition: background-color 0.3s ease;
   padding: 30px;
 }
 
 .edu_box:hover {
-  background-color: #171058;
+  background-color: #211f3c;
 }
 
 .education h2 {
@@ -527,12 +527,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   letter-spacing: 0.8px;
   line-height: 1.1em;
-  color: #f58cff;
+  color: #f9b5ff;
 }
 
 
 .education h5 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.8px;
   line-height: 1.1em;
