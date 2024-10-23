@@ -492,19 +492,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Education CSS ************/
 
 .education {
-  background-color: #121212;
   padding: 80px 0;
   position: relative;
 }
 
 .edu_box {
-  background-color: #212121;
+  margin:10px;
+  border-radius: 20px;
+  background-color: #120c45;
   transition: background-color 0.3s ease;
   padding: 30px;
 }
 
 .edu_box:hover {
-  background-color: #444444;
+  background-color: #171058;
 }
 
 .education h2 {
@@ -522,22 +523,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .education h4 {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 500;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+  color: #f58cff;
 }
 
 
 .education h5 {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
 
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;

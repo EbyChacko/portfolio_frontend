@@ -15,9 +15,9 @@ export const Education = () => {
 
               <Row>
                   <Col size={12} sm={6} className="edu_box">
-                    <h3>Deploma in Full stack development</h3>
+                    <h4>Deploma in Full stack development</h4>
                     <span>May 2023 - May 2024</span>
-                    <h4>Code Institute</h4>
+                    <h5>Code Institute</h5>
                   </Col>
 
                   <Col size={12} sm={6} className="edu_box">
