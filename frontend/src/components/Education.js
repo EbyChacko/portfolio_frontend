@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
 
 export const Education = () => {
   const linkedin = "https://www.linkedin.com/in/eby-chacko-85695b245/";
