@@ -459,6 +459,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .projects-card {
   padding : 30px;
 }
+
 .projects-card h4 {
   font-size: 20px;
   font-weight: 700;
@@ -492,16 +493,47 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .education {
   background-color: #121212;
-  color: azure;
+  padding: 80px 0;
+  position: relative;
 }
 
 .edu_box {
   background-color: #212121;
   transition: background-color 0.3s ease;
+  padding: 30px;
 }
 
 .edu_box:hover {
   background-color: #444444;
+}
+
+.education h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+.education p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+}
+
+.education h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+
+
+.education h5 {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
 }
 
 
