@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { EducationCard } from "./EducationCard";
-import code_certificate from '../assets/img/certificates/code_certificate.jpg';
+import code_certificate from '../assets/img/certificates/code_certificate.png';
 import cadd_certificate from '../assets/img/certificates/cadd_certificate.jpg';
 import bca_certificate from '../assets/img/certificates/bca_certificate.jpg';
 
