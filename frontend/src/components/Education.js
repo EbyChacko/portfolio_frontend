@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { EducationCard } from "./EducationCard";
-import code_certificate from '../assets/img/Certificate/code_certificate.jpg';
-import cadd_certificate from '../assets/img/Certificate/cadd_certificate.jpg';
-import bca_certificate from '../assets/img/Certificate/bca_certificate.jpg';
+import code_certificate from '../assets/img/certificates/code_certificate.jpg';
+import cadd_certificate from '../assets/img/certificates/cadd_certificate.jpg';
+import bca_certificate from '../assets/img/certificates/bca_certificate.jpg';
 
 export const Education = () => {
   const educations = [
