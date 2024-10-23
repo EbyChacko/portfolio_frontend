@@ -7,7 +7,7 @@ import { Tech } from "./components/Tech";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import Education from './components/Education';  // Match the exact file name
+import { Education } from './components/Education';
 
 
 
