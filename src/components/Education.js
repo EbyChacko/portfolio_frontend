@@ -32,7 +32,7 @@ export const Education = () => {
                     <Col size={12}>
                         <div >
                             <h2>EDUCATION</h2>
-                            <Row className="row justify-content-center">
+                            <Row className="justify-content-center">
                                 {
                                 educations.map((education, index) => {
                                     return (
