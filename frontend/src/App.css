@@ -488,6 +488,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color:#f58cff;
 }
 
+/************ Education CSS ************/
+
+.education {
+  background-color: #121212;
+  color: azure;
+}
+
+.edu_box {
+  background-color: #212121;
+  transition: background-color 0.3s ease;
+}
+
+.edu_box:hover {
+  background-color: #444444;
+}
+
+
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
