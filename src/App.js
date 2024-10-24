@@ -8,15 +8,11 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Education } from './components/Education';
-import Particles from "react-tsparticles";
-import particlesConfig from "./components/particlesConfig";
-
 
 
 function App() {
   return (
     <div className="App">
-      <Particles id="tsparticles" options={particlesConfig} />
       <NavBar/>
       <Banner/>
       <Tech/>
