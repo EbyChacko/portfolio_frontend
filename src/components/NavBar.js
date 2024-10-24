@@ -54,7 +54,7 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd" onClick={() => onUpdateActiveLink('contact')} ><span>Let’s Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
