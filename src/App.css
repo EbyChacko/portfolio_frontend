@@ -283,7 +283,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   
   #experience {
-    padding-top: 40px;
+    padding: 40px 0 20px 0;
   }
 }
 
