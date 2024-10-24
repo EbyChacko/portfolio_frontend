@@ -278,6 +278,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   nav.navbar {
     background-color: #260d52f7;
   }
+  #education {
+    padding: 40px;
+  }
+  
+  #experience {
+    padding: 40px;
+  }
 }
 
 .banner .tagline {
