@@ -53,10 +53,10 @@ export const Education = () => {
     ];
 
   return (
-    <section className="education" id="education">
+    <section >
       <Container>
                 <Row>
-                    <Col size={12} lg={6}>
+                    <Col size={12} lg={6} className="education" id="education">
                         <div >
                             <h2>EDUCATION</h2>
                             <Row className="justify-content-center">
@@ -73,7 +73,7 @@ export const Education = () => {
                             </Row>
                         </div>
                     </Col>
-                    <Col size={12} lg={6}>
+                    <Col size={12} lg={6} className="education" id="experience">
                         <div >
                             <h2>EXPERIENCE</h2>
                             <Row className="justify-content-center">
