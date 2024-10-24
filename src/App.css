@@ -257,6 +257,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+#basic-navbar-nav nav.link {
+  padding-bottom: 5px;
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;

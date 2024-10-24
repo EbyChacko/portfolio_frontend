@@ -73,7 +73,7 @@ export const Education = () => {
                             </Row>
                         </div>
                     </Col>
-                    <Col size={12} lg={6} id="experience">
+                    <Col size={12} lg={6} className="mt-5" id="experience">
                         <div >
                             <h2>EXPERIENCE</h2>
                             <Row className="justify-content-center">
