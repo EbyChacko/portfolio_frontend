@@ -280,7 +280,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   #education {
     padding-top: 40px;
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
   }
   
   #experience {
