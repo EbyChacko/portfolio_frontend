@@ -260,7 +260,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 160px 0 100px 0;
   background-image: url('https://res.cloudinary.com/dgd5gtn1w/image/upload/v1729622992/portfolio/banner-bg_ufnh2r.png');
   background-position: top center;
   background-size: cover;
@@ -270,6 +270,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width: 576px) {
   .banner {
     padding-top: 100px;
+  }
+  nav.navbar {
+    background-color: #260d52f7;
   }
 }
 
