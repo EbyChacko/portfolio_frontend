@@ -56,7 +56,7 @@ export const Education = () => {
     <section className="education" id="education">
       <Container>
                 <Row>
-                    <Col size={12} md={6}>
+                    <Col size={12} lg={6}>
                         <div >
                             <h2>EDUCATION</h2>
                             <Row className="justify-content-center">
