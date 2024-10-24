@@ -501,9 +501,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Education CSS ************/
 
 .education {
-  padding: 80px 20px;
   position: relative;
   background-color: #0f0e11;
+}
+
+#education {
+  padding: 80px 20px;
+}
+
+#experience {
+  padding: 80px 20px;
 }
 
 .Education-card {
