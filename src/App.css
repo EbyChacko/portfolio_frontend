@@ -515,12 +515,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 #education {
-  margin-top:40px;
+  /* margin-top:40px; */
   padding: 80px 20px;
 }
 
 #experience {
-  margin-top:40px;
+  /* margin-top:40px; */
   padding: 80px 20px;
 }
 
