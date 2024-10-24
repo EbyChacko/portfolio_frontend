@@ -496,19 +496,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .education {
   padding: 80px 20px;
   position: relative;
-  background-color: #141414;
+  background-color: #0f0e11;
 }
 
 .Education-card {
   margin: 20px;
-  border-radius: 30px;
-  background-color: #1f1f1f;
+  border-radius: 20px;
+  background-color: #14111b;
+  border: #121212 solid 10px;
   transition: background-color 0.3s ease;
   padding: 20px 30px 30px 120px;
 }
 
 .Education-card:hover {
-  background-color: #303030;
+  background-color: #1f192e;
 }
 
 .Education-card h4 {
