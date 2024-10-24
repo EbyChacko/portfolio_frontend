@@ -105,9 +105,11 @@ p.danger {
 }
 /************ Navbar Css ************/
 .logo {
-  background: linear-gradient(to right, #ea00ff, #6c00f9); 
+  background: linear-gradient(to right, #ea00ff, #6c00f9);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
+  -webkit-text-fill-color: transparent;
 }
   
 nav.navbar {
