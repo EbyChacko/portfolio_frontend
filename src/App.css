@@ -502,12 +502,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 .Education-card {
-  margin-top: 20px;
+  margin: 20px;
   border-radius: 30px;
   background-color: #16143c;
   transition: background-color 0.3s ease;
   padding: 60px;
-  color: #AA367C;
   padding: 30px;
 }
 
@@ -520,6 +519,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+  color: #AA367C;
 }
 
 
