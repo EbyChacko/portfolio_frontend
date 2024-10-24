@@ -9,6 +9,7 @@ export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -26,7 +27,14 @@ export const NavBar = () => {
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
-  }
+    if (window.innerWidth < 768) {
+      setIsNavExpanded(false);
+    }
+  };
+
+  const handleToggle = () => {
+    setIsNavExpanded(!isNavExpanded);
+  };
 
   return (
     <Router>
@@ -44,6 +52,7 @@ export const NavBar = () => {
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Tech</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
               <Nav.Link href="#education" className={activeLink === 'education' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('education')}>Education</Nav.Link>
+              <Nav.Link href="#experience" className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experience')}>Experience</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <HashLink to='#connect'>
