@@ -279,10 +279,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background-color: #260d52f7;
   }
   #education {
+    margin-top:20px;
     padding-top: 40px;
   }
   
   #experience {
+    margin-top:20px;
     padding-top: 40px;
   }
 }
@@ -513,10 +515,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 #education {
+  margin-top:40px;
   padding: 80px 20px;
 }
 
 #experience {
+  margin-top:40px;
   padding: 80px 20px;
 }
 
