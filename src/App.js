@@ -9,7 +9,7 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Education } from './components/Education';
 import Particles from "react-tsparticles";
-import particlesConfig from "./particlesConfig";
+import particlesConfig from "./components/particlesConfig";
 
 
 
