@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { EducationCard } from "./EducationCard";
+import { ExperienceCard } from "./ExperienceCard";
 
 
 export const Education = () => {
@@ -24,12 +25,38 @@ export const Education = () => {
             grade: 'B',
         },
     ];
+    const experiences = [
+        {
+            role:"Night Porter",
+            duration: "Aug 2022 - Present",
+            company: 'Shearwater Hotel & Spa',
+            place: 'Ballinasloe, Co-Galway, Ireland',
+        },
+        {
+            role:"Graphic Designer",
+            duration: "Jan 2021 - Feb 2022",
+            company: 'Color dots flex and vinyl printing',
+            place: 'Kothamangalam, Kerala, India',
+        },
+        {
+            role:"Sales Executive",
+            duration: "Jun 2016 - Jun 2020",
+            company: 'Landmark International Auto SpareParts Trading LLC',
+            place: 'Sharjah, UAE',
+        },
+        {
+            role:"Graphic Designer",
+            duration: "Jun 2008 - May 2016",
+            company: 'Color dots flex and vinyl printing',
+            place: 'Kothamangalam, Kerala, India',
+        },
+    ];
 
   return (
     <section className="education" id="education">
       <Container>
                 <Row>
-                    <Col size={12}>
+                    <Col size={12} md={6}>
                         <div >
                             <h2>EDUCATION</h2>
                             <Row className="justify-content-center">
@@ -39,6 +66,23 @@ export const Education = () => {
                                     <EducationCard
                                         key={index}
                                         {...education}
+                                        />
+                                    )
+                                })
+                                }
+                            </Row>
+                        </div>
+                    </Col>
+                    <Col size={12} md={6}>
+                        <div >
+                            <h2>EXPERIENCE</h2>
+                            <Row className="justify-content-center">
+                                {
+                                experiences.map((experience, index) => {
+                                    return (
+                                    <ExperienceCard
+                                        key={index}
+                                        {...experience}
                                         />
                                     )
                                 })
