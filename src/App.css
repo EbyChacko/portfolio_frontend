@@ -289,6 +289,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding-top: 30px !important;
     padding-bottom: 20;
   }
+
+  .skill-bx {
+    padding: 10px 10px !important;
+  }
 }
 
 .banner .tagline {
@@ -358,8 +362,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  /* background: #27124b;
-  border-radius: 64px; */
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
