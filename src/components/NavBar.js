@@ -36,7 +36,7 @@ export const NavBar = () => {
 
   return (
     <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""} expanded={isNavExpanded}>
+      <Navbar expand="lg" className={scrolled ? "scrolled" : ""} expanded={isNavExpanded}>
         <Container>
           <Navbar.Brand href="/">
             <h2 className="logo">Portfolio</h2>
