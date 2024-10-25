@@ -9,20 +9,20 @@ export const Education = () => {
             cource:"Diploma in Full Stack Development",
             duration: "May 2023 - May 2024",
             institute: 'Code Institute',
-            grade: 'Distinction',
+            place: 'Online, Ireland',
 
         },
         {
             cource:"Bachelor of Computer Application",
             duration: "Mar 2012 - Mar 2015",
-            institute: 'Ilahia Collage of Arts & Science',
-            grade: 'B',
+            institute: 'Mahatma Gandhi University',
+            place: 'Muvattupuzha, Kerala, India',
         },
         {
             cource:"Master Diploma in Animation",
             duration: "Oct 2007 - Apr 2009",
             institute: 'Cochin Cadd Center',
-            grade: 'B',
+            place: 'Aluva, Kerala, India',
         },
     ];
     const experiences = [

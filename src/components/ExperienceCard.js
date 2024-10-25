@@ -7,7 +7,7 @@ export const ExperienceCard = ({ role, duration, company, place }) => {
           <h4>{role}</h4>
           <p>{duration}</p>
           <h5>{company}</h5>
-          <p> {place}</p>
+          <span> {place}</span>
         </div>
     </Col>
   )
