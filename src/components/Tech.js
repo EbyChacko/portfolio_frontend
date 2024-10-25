@@ -26,7 +26,7 @@ export const Tech = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>TECH STACK</h2>
                         <p className="text-start">My technical skills include proficiency in <span className="fw-bold" style={{ color: "#b675e8" }}>Python, Django, JavaScript, React, SQL, Bootstrap and HTML/CSS. </span>
-                         I am currently learning <span className="fw-bold" style={{ color: "#b675e8" }}>Machine Learning and Artificial Intelligence.</span></p>
+                        Currently I am expanding my knowledge in <span className="fw-bold" style={{ color: "#b675e8" }}>Machine Learning and Artificial Intelligence.</span></p>
                          <div className="container">
                             <div className="row justify-content-center">
                             {logos.map((logo, index) => (
