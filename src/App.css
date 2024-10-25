@@ -709,9 +709,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .banner {
     padding-top: 140px;
   }
-  nav.navbar {
-    background-color: #260d52f7;
-  }
   #education {
     padding-top: 40px;
     padding-bottom: 0 !important;
@@ -727,5 +724,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   .project p {
     text-align: left !important;
+  }
+}
+
+@media (max-width: 992px) {
+  nav.navbar {
+    background-color: #260d52f7;
   }
 }

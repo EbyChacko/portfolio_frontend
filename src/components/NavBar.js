@@ -25,7 +25,7 @@ export const NavBar = () => {
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 992) {
       setIsNavExpanded(false);
     }
   };
