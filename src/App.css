@@ -293,6 +293,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .skill-bx {
     padding: 10px 10px !important;
   }
+  .project p {
+    text-align: left;
+  }
 }
 
 .banner .tagline {
@@ -315,7 +318,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner p {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0.8px;  
   line-height: 1.5em;
   font-weight: 100;
