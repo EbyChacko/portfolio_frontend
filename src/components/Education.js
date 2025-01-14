@@ -27,10 +27,10 @@ export const Education = () => {
     ];
     const experiences = [
         {
-            role:"Night Porter",
-            duration: "Aug 2022 - Present",
-            company: 'Shearwater Hotel & Spa',
-            place: 'Ballinasloe, Co-Galway, Ireland',
+            role:"Web Designer-Part-Time",
+            duration: "Apr 2022 – Nov 2024",
+            company: 'Netotech Solutions',
+            place: 'Kothamangalam, Kerala, India',
         },
         {
             role:"Graphic Designer",
