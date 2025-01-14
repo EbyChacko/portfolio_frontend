@@ -35,7 +35,7 @@ export const Education = () => {
         {
             role:"Graphic Designer",
             duration: "Jan 2021 - Feb 2022",
-            company: 'Color dots flex and vinyl printing',
+            company: 'Color dots',
             place: 'Kothamangalam, Kerala, India',
         },
         {
@@ -47,7 +47,7 @@ export const Education = () => {
         {
             role:"Graphic Designer",
             duration: "Jun 2008 - May 2016",
-            company: 'Color dots flex and vinyl printing',
+            company: 'Color dots',
             place: 'Kothamangalam, Kerala, India',
         },
     ];
