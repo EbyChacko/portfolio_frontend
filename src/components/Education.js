@@ -33,7 +33,7 @@ export const Education = () => {
             place: 'Kothamangalam, Kerala, India',
         },
         {
-            role:"Graphic Designer",
+            role:"Senior Graphic Designer",
             duration: "Jan 2021 - Feb 2022",
             company: 'Color dots',
             place: 'Kothamangalam, Kerala, India',
